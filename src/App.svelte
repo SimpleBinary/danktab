@@ -202,7 +202,7 @@
 
 	@media (max-width: 768px) {
 		#search-bar {
-			width: 290px !important;
+			width: 270px !important;
 		}
 	}
 

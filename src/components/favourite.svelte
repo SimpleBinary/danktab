@@ -61,16 +61,18 @@
         border-radius: 0.7em;
     }
 
+    @media (max-width: 768px) {
+        .favourite {
+            width: 50px;
+            height: 50px;
+            margin-right: 5px !important;
+        }
+    }
+
     .last,
     .last:active,
     .last:hover {
-        margin-right: 0;
-    }
-
-    @media (max-width: 768px) {
-        .favourite {
-            margin-right: 0 !important;
-        }
+        margin-right: 0 !important;
     }
 </style>
 
