@@ -225,7 +225,7 @@
 		<Container>
 			<form class="form active-highlight" id="search-form">
 				<input
-					style="backdrop-filter: blur({blur_amount});"
+					style="backdrop-filter: blur({blur_amount}); -webkit-backdrop-filter: blur({blur_amount});"
 					class="mr-sm-2 {mode}"
 					type="search"
 					placeholder="Search with {search_engine}"

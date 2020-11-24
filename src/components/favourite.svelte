@@ -76,7 +76,7 @@
 
 <button
     class="favourite {is_last ? 'last' : ''} {is_first ? 'first' : ''} {mode}"
-    style="backdrop-filter: blur({blur_amount});"
+    style="backdrop-filter: blur({blur_amount}); -webkit-backdrop-filter: blur({blur_amount});"
     id={lowercase(name)}
     onclick="window.location.href='{href}'"
     draggable="true"

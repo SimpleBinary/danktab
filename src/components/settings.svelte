@@ -211,7 +211,7 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div
                 class="modal-content settings-modal"
-                style="backdrop-filter: blur({blur_amount});">
+                style="backdrop-filter: blur({blur_amount}); -webkit-backdrop-filter: blur({blur_amount});">
                 <div class="modal-header justify-content-center">
                     <h5 class="modal-title" id="settings-modal-label">
                         Settings
