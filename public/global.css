@@ -29,7 +29,7 @@ label {
 	display: block;
 }
 
-input, button, select, textarea, option {
+input, button, select, textarea {
 	font-family: inherit;
 	font-size: inherit;
 	-webkit-padding: 0.4em 0;
@@ -38,21 +38,8 @@ input, button, select, textarea, option {
 	box-sizing: border-box;
 	border: 1px solid #ccc;
 	border-radius: 2px;
-	background-color: #ffffff;
-	color: #000000;
-}
-
-select {
-	background-color: #ffffff !important;
-	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") !important;
-	color: #000000;
 }
 
 input:disabled {
 	color: #ccc;
-}
-
-input::placeholder {
-	color: #ffffff;
-	opacity: 0.6 !important;
 }
