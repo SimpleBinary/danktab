@@ -1,4 +1,4 @@
-# Danktab
+# Newtab
 
 A new tab page built with Svelte.
 
